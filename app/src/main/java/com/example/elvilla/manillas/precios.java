@@ -13,7 +13,6 @@ public class precios {
     int oro=90;
     int plata =80;
     int niquel=80;
-    int rosa=40;
 public static int cuero ( int cuero){
 
     return cuero;
@@ -43,9 +42,6 @@ public static int cuero ( int cuero){
 
         return niquel;
     }
-    public static int rosa ( int rosa){
 
-        return rosa;
-    }
 
 }

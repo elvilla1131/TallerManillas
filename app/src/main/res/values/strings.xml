@@ -1,40 +1,44 @@
 <resources>
-    <string name="app_name">manillas</string>
-    <string name="manillas">Manillas XYZ</string>
-    <string name="material">Material</string>
-    <string name="dije">Dije</string>
-    <string name="tipo">Tipo</string>
+    <string name="app_name">Taller1</string>
+    <string name="empresaxyz">EmpresaXYZ</string>
+    <string name="tipomanilla">Tipo de manilla:</string>
+    <string-array name="strTipoManilla">
+        <item>@string/oro</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+    <string name="material">Material:</string>
+    <string-array name="strMaterial">
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+    <string name="dije">Dije:</string>
+    <string-array name="strDije">
+        <item>@string/ancla</item>
+        <item>@string/martillo</item>
+    </string-array>
     <string name="cuero">Cuero</string>
     <string name="cuerda">Cuerda</string>
-    <string name="martillo">Martillo</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="digiteCantidad">Digite cantidad</string>
+    <string name="cancelar">Borrar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="detallesCompra">Detalles De la compra</string>
+    <string name="valorUnitario">Valor unitario:</string>
+    <string name="valorTotal">Valor total:</string>
+    <string name="moneda">Moneda</string>
+    <string-array name="strMoneda">
+        <item>@string/pesos</item>
+        <item>@string/dolares</item>
+    </string-array>
+    <string name="pesos">Pesos</string>
+    <string name="dolares">Dolares</string>
     <string name="ancla">Ancla</string>
-    <string name="oro">Oro</string>
+    <string name="martillo">Martillo</string>
+    <string name="oro">Oro, oro rosado</string>
     <string name="plata">Plata</string>
     <string name="niquel">Niquel</string>
-    <string name="rosa">Oro rosa</string>
-
-    <string name="total">Total:</string>
-    <string name="aceptar">Aceptar</string>
-    <string name="cantidad">Cantidad</string>
-    <string name="aceptar">Aceptar</string>
-    <string name="cancelar">Cancelar</string>
-    <string name="valorunitario">Valor Unitario</string>
-    <string name="valortotal">Valor Total:</string>
-    <string-array name="material">
-        <item>Cuero</item>
-        <item>Cuerda</item>
-    </string-array>
-
-    <string-array name="dije">
-        <item>Martillo</item>
-        <item>Ancla</item>
-    </string-array>
-
-    <string-array name="tipo">
-        <item>Oro</item>
-        <item>Oro rosado</item>
-        <item>Plata</item>
-        <item>Niquel</item>
-    </string-array>
-
+    <string name="Dolar" >Dolar</string>
+    <string name="peso">Peso</string>
+    <string name="tipoDePago">Tipo de pago:</string>
 </resources>
