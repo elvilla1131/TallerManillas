@@ -15,6 +15,11 @@
 
     <string name="total">Total:</string>
     <string name="aceptar">Aceptar</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="valorunitario">Valor Unitario</string>
+    <string name="valortotal">Valor Total:</string>
     <string-array name="material">
         <item>Cuero</item>
         <item>Cuerda</item>

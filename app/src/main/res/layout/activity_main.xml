@@ -23,53 +23,129 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="20sp" />
 
-    <LinearLayout
+    <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="109dp"
-        android:orientation="horizontal">
+        android:layout_height="77dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="96sp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="96sp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="96sp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="96sp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:text="TextView" />
 
         <Spinner
-            android:id="@+id/cmbmaterial"
-            android:layout_width="match_parent"
+            android:id="@+id/spinner"
+            android:layout_width="96sp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_column="0"
+            android:layout_row="1" />
 
         <Spinner
-            android:id="@+id/cmbdije"
-            android:layout_width="match_parent"
+            android:id="@+id/spinner2"
+            android:layout_width="96sp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_column="1"
+            android:layout_row="1" />
 
         <Spinner
-            android:id="@+id/cmbtipo"
-            android:layout_width="match_parent"
+            android:id="@+id/spinner3"
+            android:layout_width="96sp"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_column="2"
+            android:layout_row="1" />
 
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/btnaceptar"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:onClick="aceptar"
-        android:text="@string/aceptar" />
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="96sp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="1" />
+    </GridLayout>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/total" />
+        android:text="@string/cantidad"
+        android:textAlignment="center" />
 
-    <TextView
-        android:id="@+id/lblResultado"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnaceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/aceptar" />
+
+        <Button
+            android:id="@+id/btncancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancelar" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="@string/valorunitario" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_column="8"
+            android:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/valortotal" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_column="8"
+            android:layout_row="1" />
+
+    </GridLayout>
 
 </LinearLayout>
