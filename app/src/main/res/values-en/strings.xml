@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">handcuffs</string>
+    <string name="empresaxyz">Company XYZ</string>
+    <string name="tipomanilla">Type of handcuffs</string>
+    <string name="material">Material:</string>
+    <string name="dije">Ornament:</string>
+    <string name="cuero">Leather</string>
+    <string name="cuerda">Rope:</string>
+    <string name="cantidad">Quantity:</string>
+    <string name="digiteCantidad">Type Quantity</string>
+    <string name="cancelar">Erase</string>
+    <string name="aceptar">accept</string>
+    <string name="valorUnitario">Unit</string>
+    <string name="valorTotal">Total</string>
+    <string name="moneda">Payment</string>
+    <string name="pesos">Pesos</string>
+    <string name="dolares">Us-dolars</string>
+    <string name="ancla">Anchor</string>
+    <string name="martillo">Hammer</string>
+    <string name="oro">Gold</string>
+    <string name="plata">Silver</string>
+    <string name="niquel">Nickel</string>
+    <string name="Dolar">Dolar</string>
+    <string name="peso">Peso col</string>
+    <string name="tipoDePago">Pyment</string>
+</resources>
