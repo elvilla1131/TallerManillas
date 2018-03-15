@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
                                     break;
                             }
                             break;
-                    }
+                    }break;
                 case 1:
                     switch (op_material){
                         case 0:
